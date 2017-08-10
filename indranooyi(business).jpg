@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body class="w3-content" style="max-width:1300px">
+
+<!-- First Grid: Logo & About -->
+<div class="w3-row">
+  <div class="w3-half w3-black w3-container w3-center" style="height:700px">
+    <div class="w3-padding-64">
+      <h1>Indra Nyooi</h1>
+           <p>“Leadership is hard to define and good leadership even harder. But if you can get people to follow you to the ends of the earth, you are a great leader.”</p>
+    </div>
+    <div class="w3-padding-64">
+      <a href="#" class="w3-button w3-black w3-block w3-hover-blue-grey w3-padding-16">Home</a>
+      <a href="#work" class="w3-button w3-black w3-block w3-hover-teal w3-padding-16">Occupation</a>
+      <a href="#work" class="w3-button w3-black w3-block w3-hover-dark-grey w3-padding-16">Achievements</a>
+    </div>
+  </div>
+  <div class="w3-half w3-blue-grey w3-container" style="height:700px">
+    <div class="w3-padding-64 w3-center">
+      <h1>About Her</h1>
+      <img src="sharonletcher.JPG" style= "width:300px;height:400pxpx;">
+      <div class="w3-left-align w3-padding-large">
+        <p> <u> Ethnicity: <u/>Indian</p>
+        <p> <u> Birthday: October 28, 1955<u/> </p>
+        <p> <u> Born in: Channi Tamil Nadu India</u> </p>
+     
+       </div>
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid: Work & Resume -->
+<div class="w3-row">
+  <div class="w3-half w3-light-grey w3-center" style="min-height:800px" id="work">
+    <div class="w3-padding-64">
+      <h2>Occupation</h2>
+      <p> Indra Nooyi is an Indian American business executive and the current Chairperson and Chief Executive Officer of PepsiCo, the second largest food and beverage business in the world by net revenue. Nooyi joined PepsiCo in 1994 and was named CFO in 2001 and then President and CEO in 2006. Nooyi has directed the company's global strategy for more than a decade and led PepsiCo's restructuring, including the 1997 divestiture of its into Tricon, now known as Yum! Brands. Nooyi also took the lead in the acquisition of Tropicana in 1998, and the merger with Quaker Oats Company, which also brought Gatorade to Pepsi Co. In 2006 she became the fifth CEO in Pepsi Co's 44-year history. She was named as the 3rd Most Powerful Woman in Business by Fortune in 2014. Since she started as CFO in 2001, the company's annual net profit has risen from $2.7 billion to $6.5 billion. Nooyi's strategic redirection of her company has been largely successful. She reclassified Pepsico’s products into three categories: “fun for you” (such as potato chips and regular soda), “better for you” (diet or low-fat versions of snacks and sodas), and “good for you” (items such as oatmeal). Her initiative was backed up with ample funding. She moved corporate spending away from junk foods and into the healthier alternatives, with the aim of improving the healthiness of even the “fun” offerings. In 2015, Nooyi removed aspartame from Diet Pepsi, furthering the shift towards healthier foods. 
+</p>
+    </div>
+  
+        <img src="mariawork.jpg" style= "width:617px;height:380pxpx;">
+    
+      
+
+ 
+  </div>
+  <div class="w3-half w3-indigo w3-container" style="min-height:800px">
+    <div class="w3-padding-64 w3-center">
+      <h2>Achievemnts</h2>
+      <p> Forbes magazine ranked Nooyi on the 2008, 2009, 2010, 2011, 2012, 2013, and 2014 lists of The World's 100 Most Powerful Women. Fortune magazine has named Nooyi number one on its annual ranking of Most Powerful Women in business for 2006, 2007, 2008, 2009 and 2010. In 2008, Nooyi was named one of America's Best Leaders by U.S. News & World Report. In 2008, she was elected to the Fellowship of the American Academy of Arts and Sciences. In January 2008, Nooyi was elected chairwoman of the U.S.-India Business Council (USIBC). Nooyi leads USIBC's Board of Directors, an assembly of more than 60 senior executives representing a cross-section of American industry. Nooyi has been named 2009 CEO of the Year by Global Supply Chain Leaders Group. In 2009, Nooyi was considered one of "The TopGun CEOs" by Brendan Wood International, an advisory agency. After five years on top, PepsiCo's Indian American chairman and CEO Indra Nooyi has been pushed to the second spot as most powerful woman in US business by Kraft's CEO, Irene Rosenfeld.
+
+</p>
+      </div>
+    </div>
+  </div>
+</div>
+    
+<!-- Footer -->
+<footer class="w3-container w3-black w3-padding-16">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+</body>
+</html>
