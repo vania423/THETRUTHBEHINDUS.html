@@ -2,6 +2,8 @@
 <html>
     <title>The Truth Behind Us</title>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <style>
     ul {
         list-style-type: none;
@@ -50,6 +52,7 @@ li a:hover {
 .background color {
     background-color: #7f9c96;
 
+ .mySlides {display:none;}
 </style>
    <ul>
     
@@ -64,7 +67,29 @@ li a:hover {
      <html>
 <body background="background.jpg";>
     
-<center> <img src="home.jpg" alt="Truth Behind Us" style="width:950px;height:550px;"border="0"> </center>
+<div class="w3-content w3-section" style="width:950px;height:550px;"border="0">
+  <img class="mySlides" src="home.jpg" style="width:100%">
+  <img class="mySlides" src="mariestopes.JPG" style="width:100%">
+  <img class="mySlides" src="mildreddresselhause.jpg" style="width:100%">
+</div>
+    
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+    
 <br>
 <br>
     <form action="https://rolemodelsgwc.github.io/THETRUTHBEHINDUS.html/occupations.html#home">
